@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.end(`
       <h1>Oops!</h1>
       <p>We can't find the page you're looking for.</p>
-      <a href='/'>Back home</a>
+      <a href='/'>Back home now</a>
     `);
   }
 });
