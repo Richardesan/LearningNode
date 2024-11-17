@@ -17,7 +17,7 @@ readFile('./content/first.txt', 'utf-8', (err, result)=>{
                 console.log('Error writing file', err)
                 return
             }
-            console.log('done with this task')
+            console.log('done with this task', result)
         })
     }
   
